@@ -1,0 +1,14 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 60px;
+    background-color: #C3C6B1;
+    
+}
+#kon { 
+    align-self: flex-start; /* Го позиционира "Контакт" на лево */
+}
+#copy { 
+    text-align: center; /* Го центрира текстот во "copy" делот */
+}

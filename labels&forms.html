@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+    </head>
+
+<body>
+    <h3>Proba prva</h3>
+    <p>Ova e prva proba. Tabelata izleze vo red.<br>Samo da vidime dali i ova go pogodivme.</p>
+    <table>
+        <table border = "4">
+
+            <caption>Mojata prva tabela</caption>
+            <thead>
+                <tr>
+                    <th>Prva kolona</th>
+                    <th>Vtora kolona</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th>Kraj na prva koloka</th>
+                    <td>Kraj na vtora kolona</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Vtora redica, dvete kolona</td>
+                    <td>/</td>
+                    </tr>
+                <tr>
+                    <td>treta redica, prva kolona</td>
+                    <td>treta redica, vtora kolona</td>
+                </tr>
+                <tr>
+                    <td>cetvrta redica, prva kolona</td>
+                    <td>cetvrta redica, vtora kolona</td>
+                </tr>
+            </tbody>
+    </table>
+
+    <form method="post" action="#">
+        <p><label>Name:
+            <input name = "Ime" type = "text" size = "30">
+        </label></p>
+        <p><label>Surname:
+            <input name = "Prezime" type = "text" size = "45">
+        </label></p>
+
+        <p>Ova treba da bide slednovo so checkbox.<br>Pa te molam stikliraj nekolku.</p>
+
+        <p>
+            <label>Prvo za stikliranje<input name = "prvo" type = "checkbox"><br>
+            </label>
+            <label>Vtoro za stikliranje<input name = "vtoro" type = "checkbox">
+            </label>
+            <label>Treto za stikliranje vo istiot red so vtoroto<input name = "treto" type = "checkbox" value = "checked">
+            </label>
+        </p>
+        <hr>
+        <p><strong>Please only check one of the following examples.<br></strong></p>
+        <p>
+            <label>
+            Prvo<input name = "prvo" type = "radio">
+            Vtoro<input name = "prvo" type = "radio">
+            </label>
+        </p>
+
+        <p><label>Opcionalno:
+            <select name = "rejting">
+                <option>prva</option>
+                <option>vtora</option>
+                <option>treta</option>
+            </select>
+        </label></p>
+    </form>
+
+    <form>
+        <label>
+          <input type="radio" name="option" >
+          Option 1
+        </label>
+        <label>
+          <input type="radio" name="option" >
+          Option 2
+        </label>
+      </form>
+</body>
+</html>
